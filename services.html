@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homepage">
+    <link rel="stylesheet" href="services.css">
+<!--Links for the google fonts that i am using-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!--The Websites main bar when on google-->
+    <title>Pricing</title>
+    <link rel="Icon" href="cheezys movin.png">
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+     x.className += " responsive";
+   } else {
+     x.className = "topnav";
+    }
+}
+</script>
+</head>
+<body>
+<!--Title of the Webpage-->
+<div class="container">
+    <p>Services</p>
+</div>
+<!--Top Navigation Bar-->
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a class="active" href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+</div>
+<div class="columns">
+    <ul class="price">
+      <li class="header">Standard</li>
+      <li class="grey">$ 100</li>
+      <li>Moving State Wide</li>
+      <li>50 Boxes Moved</li>
+      <li>5 Day Moving</li>
+      <li>Loaders Included</li>
+      <li class="grey"><a href="Checkout.html" class="button">Book</a></li>
+    </ul>
+</div>
+<div class="columns">
+    <ul class="price">
+      <li class="header">Premium</li>
+      <li class="grey">$ 200</li>
+      <li>Moving State Wide</li>
+      <li>75 Boxes Moved</li>
+      <li>3 Day Moving</li>
+      <li>More Expericened Movers</li>
+      <li class="grey"><a href="Checkout2.html" class="button">Book</a></li>
+    </ul>
+</div>
+<div class="columns">
+    <ul class="price">
+      <li class="header">Deluxe</li>
+      <li class="grey">$ 350</li>
+      <li>Moving Nation Wide</li>
+      <li>As Many as Needed</li>
+      <li>Same Day Moving</li>
+      <li>Fastest Movers We Have</li>
+      <li class="grey"><a href="Checkout3.html" class="button">Book</a></li>
+    </ul>
+</div>
+</body>
+</html>
