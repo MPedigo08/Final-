@@ -1,3 +1,6 @@
+html {
+  background-color: lightskyblue;
+}
 /*Title for CHEEZYMRP Website title*/
 .container {
     display: flex;
@@ -59,4 +62,8 @@
     display: block;
     text-align: left;
   }
+}
+form {
+  text-align: center;
+  font-size: larger;
 }
